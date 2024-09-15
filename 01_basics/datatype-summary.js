@@ -51,3 +51,28 @@ console.log(typeof anotherId);
 //        Object  =>  object
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//******************************************
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myFriendName = "SumitThakur"
+let anotherFriend = myFriendName
+
+anotherFriend = "AmanThakur"
+console.log(myFriendName)
+console.log(anotherFriend)
+
+
+let user1 = {
+    email : "user@google.com",
+    upiId : "user@ybl"
+}
+let user2 = user1
+user2.email = "deepak@email"
+
+console.log(user1.email);
+console.log(user2.email);
+
+
