@@ -17,8 +17,8 @@ const another_real_Arr = another_Arr.flat(Infinity)
 // console.log(another_Arr);
 // console.log(another_real_Arr);
 
-console.log(Array.isArray("deepak"));
-console.log(Array.from("deepak"));
+// console.log(Array.isArray("deepak"));
+// console.log(Array.from("deepak"));
 console.log(Array.from({name:"deepak"}));  //interesting
 
 let score1 = 10
